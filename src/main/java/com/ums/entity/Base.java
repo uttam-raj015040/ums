@@ -19,7 +19,7 @@ public class Base {
     private String id;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(nullable = false, updatable = false)
+    @Column(nullable = true, updatable = false)
     private Date createdAt;
 
     @Temporal(TemporalType.TIMESTAMP)

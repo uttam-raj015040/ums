@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ProductDto {
-    private String productName;
-    private String productType;
-    private Number productId;
+public class OfficeDto {
+    private String officeName;
+    private String region;
     private Boolean isDeleted;
-
 }
+
+
